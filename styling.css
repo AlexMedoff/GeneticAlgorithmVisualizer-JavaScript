@@ -1,0 +1,55 @@
+@font-face {
+	font-family: "Yale Font";
+	src: url("fonts/YaleNew-Bold.otf");
+}
+
+@font-face {
+	font-family: "Yale Font Roman";
+	src: url("fonts/YaleNew-Roman.otf");
+}
+
+#generations {
+	font-family: "Yale Font", "Roboto Slab";
+	font-size: 40px;
+}
+
+#main-paragraph {
+	margin: 0;
+	font-family: "Yale Font Roman", "Roboto Slab";
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+p {
+	color: #00356b;
+}
+
+a{
+	text-decoration: none;
+	color: #e24c00;
+	font-family: "Yale Font Roman", "Roboto Slab";
+	font-size: 20px;
+	border-bottom: 1px solid rgba(192, 192, 192, 0);
+	-webkit-transition: border 300ms ease;
+	-moz-transition: border 300ms ease;
+	-ms-transition: border 300ms ease;
+	-o-transition: border 300ms ease;
+	transition: border 300ms ease; 
+}
+
+a:hover {
+	border-bottom: 1px solid rgba(192, 192, 192, 1);
+	cursor: pointer;
+}
+
+h1 {
+	margin: 0;
+	font-family: "Yale Font", "Roboto Slab";
+	font-size: 60px;
+	color: #00356b;
+}
+
+canvas {
+	border-radius: 20px;
+	border: 3px dotted #00356b;;
+}
