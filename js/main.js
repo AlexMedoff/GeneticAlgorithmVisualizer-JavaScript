@@ -28,7 +28,7 @@ function setup() {
 	link = createElement('a', "Link to Code");
 	link.id("viewCode");
 	var a = document.getElementById("viewCode");
-	a.href = "";
+	a.href = "https://github.com/AlexMedoff/HillClimbGeneticAlgorithmYaleLogo";
 
 	mainWrapper = createDiv("");
 	mainWrapper.position(50, 50);
