@@ -20,6 +20,15 @@
 	line-height: 1.5em;
 }
 
+#please-note {
+	font-weight: bold;
+	margin: 0;
+	font-family: "Yale Font Roman", "Roboto Slab";
+	font-size: 20px;
+	line-height: 1.5em;
+	color: rgb(255, 0, 100);
+}
+
 p {
 	color: #00356b;
 }
