@@ -24,6 +24,7 @@ function preload() {
 }
 
 function setup() {
+	pixelDensity(1);
 	cvs = createCanvas(yaleLogo.width, yaleLogo.height);
 	generationsText = createElement('p', 'Generations = ' + numOfGenerations);
 	generationsText.id("generations");
