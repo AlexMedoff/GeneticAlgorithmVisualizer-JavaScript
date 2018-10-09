@@ -22,7 +22,7 @@ function Gene(targetImage) {
 		var y;
 
 		for (var i=0; i < random(1,mutationRateMax); i++) {
-			radius = random(50);
+			radius = random(30);
 			c = randomColor();
 			this.graphic.noStroke();
 			this.graphic.fill(c);
