@@ -5,6 +5,8 @@
 1. Clone repo
 2. Open index.html in web browser
 
+**Alternative** Follow [this link](https://youtu.be/0Xcn0U93pkk) to see a YouTube video that demonstrates the program.
+
 **What is a Genetic Algorithm?**
 A genetic algorithm applies the principles of natural selection in order to solve novel problems.
 The general process begins with the creation of a population of "individuals" (potential solutions
