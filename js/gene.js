@@ -22,7 +22,7 @@ function Gene(targetImage) {
 		var y;
 
 		for (var i=0; i < random(1,mutationRateMax); i++) {
-			radius = random(30);
+			radius = random(25);
 			c = randomColor();
 			this.graphic.noStroke();
 			this.graphic.fill(c);
@@ -45,8 +45,11 @@ function Gene(targetImage) {
 function randomColor() {
 	var returnColor;
 	var randomFloat = random();
-	if (randomFloat < .5) {
-		returnColor = color(0, 53, 107, random(255));
+	if (randomFloat < .33) {
+		returnColor = color(77, 20, 140, random(255));
+	}
+	else if (randomFloat < .66) {
+		returnColor = color(255, 102, 0, random(255));
 	}
 	else {
 		returnColor = color(255, 255, 255, random(255));
