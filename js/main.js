@@ -40,7 +40,7 @@ function setup() {
 	youtubeLink = createElement('a', 'Click Here to See Youtube Video');
 	youtubeLink.id("ytlink");
 	var a2 = document.getElementById("ytlink");
-	a2.href = "https://www.youtube.com/watch?v=SkbHVJ7-mwI";
+	a2.href = "https://youtu.be/0Xcn0U93pkk";
 
 	mainWrapper = createDiv("");
 	mainWrapper.position(50, 50);
